@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Yeucau1.css">
+    <title>Form Registration</title>
+</head>
+<body>
+    <form action="">
+        <h1>Registration Form</h1>
+        <!--Start: UserID -->
+        <div class="row">
+            <div class="col">
+                User ID:
+            </div>
+            <div class="col">
+                <input type="text" name="txtUserID" id="txtUserID" required>
+                <span id="statusOfUserID"></span>
+            </div>
+        </div>
+        <!--End: UserID -->
+
+        <!--Start: Password -->
+        <div class="row">
+            <div class="col">
+                Password:
+            </div>
+            <div class="col">
+                <input type="password" name="txtPassword" id="txtPassword">
+                <span id="statusOfPassword"></span>
+            </div>
+        </div>
+        <!--End: Password -->
+
+        <!--Start: Name -->
+        <div class="row">
+            <div class="col">
+                Name:
+            </div>
+            <div class="col">
+                <input type="text" name="txtName" id="txtName">
+                <span id="statusOfName"></span>
+            </div>
+        </div>
+        <!--End: Name -->
+
+        <!--Start: Address -->
+        <div class="row">
+            <div class="col">
+                Address:
+            </div>
+            <div class="col">
+                <input type="text" name="txtAddress" id="txtAddress">
+                <span id="statusOfAddress"></span>
+            </div>
+        </div>
+        <!--End: Address -->
+
+        <!--Start: Country -->
+        <div class="row">
+            <div class="col">
+                Country:
+            </div>
+            <div class="col">
+                <select id="Country">
+                    <option value="select">(Please select a country)</option>
+                    <option value="VietNam">VietNam</option>
+                    <option value="America">America</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                    <option value="England">England</option>
+                </select>
+                <span id="statusOfCountry"></span>
+            </div>
+        </div>
+        <!--End: Country -->
+
+        <!--Start: ZIP Code -->
+        <div class="row">
+            <div class="col">
+                ZIP Code:
+            </div>
+            <div class="col">
+                <input type="text" name="txtZIPCode" id="txtZIPCode">
+                <span id="statusOfZIPCode"></span>
+            </div>
+        </div>
+        <!--End: ZIP Code -->
+
+        <!--Start: Email -->
+        <div class="row">
+            <div class="col">
+                Email:
+            </div>
+            <div class="col">
+                <input type="text" name="txtEmail" id="txtEmail">
+                <span id="statusOfEmail"></span>
+            </div>
+        </div>
+        <!--End: Email -->
+
+        <!--Start: Sex -->
+        <div class="row">
+            <div class="col">
+                Sex:
+            </div>
+            <div class="col">
+                <div id="Sex">
+                <input type="radio" name="Sex" id="Msex">Male
+                <input type="radio" name="Sex" id="Fesex">Female
+                <span id="statusOfSex"></span>
+                </div>
+            </div>
+        </div>
+        <!--End: Sex -->
+
+        <!--Start: Language -->
+        <div class="row">
+            <div class="col">
+                Language:
+            </div>
+            <div class="col">
+                <input type="checkbox" id="Language" name="Language">English
+                <input type="checkbox" id="Nlanguage" name="Language">Non English
+                <span id="statusOfLanguage"></span>
+            </div>
+        </div>
+        <!--End: Language -->
+        
+        <!--Start: About -->
+        <div class="row">
+            <div class="col">
+                About:
+            </div>
+            <div class="col">
+                <textarea name="About" id="About" cols="5" rows="4"></textarea>
+                <span id="statusOfAbout"></span>
+            </div>
+        </div>
+        <!--End: About -->
+
+        <!--Start: Btn -->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <input type="submit" name="btnRegister" id="btnRegister" value="Submit">
+            </div>
+        </div>
+        <!--End: Btn -->
+    </form>
+
+    <script src="js/Yeucau1.js"></script>
+</body>
+</html>

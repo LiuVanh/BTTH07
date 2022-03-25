@@ -1,0 +1,41 @@
+h1{
+    margin-left: 100px;
+}
+.row{
+    display:flex;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#txtName{
+    width:465px;
+}
+#txtAddress{
+    width:450px;
+}
+#txtZIPCode{
+    width:150px;
+}
+#txtEmail{
+    width:465px;
+}
+#txtUserID{
+    width:110px
+}
+#txtPassword{
+    width:100px
+}
+#Language{
+    border: 5px solid black;
+}
+.col{
+    margin-left: 5px;
+}
+textarea{
+    width:465px;
+    height:150px
+}
+#btnRegister{
+    width: 70px;
+    height: 30px;
+    margin-left: 240px;
+}
