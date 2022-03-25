@@ -21,7 +21,7 @@ function leavePassword(){
         statusOfPassword.textContent = 'Password hợp lệ'
         statusOfPassword.style.color = 'blue'
     }else{
-        statusOfPassword.textContent = 'Password không hợp lệ. Độ dài từ 5 - 12'
+        statusOfPassword.textContent = 'Password không hợp lệ. Độ dài từ 7 - 12'
         statusOfPassword.style.color = 'red'
     }
 }

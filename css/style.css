@@ -1,34 +1,39 @@
-h1{
-    margin-left: 100px;
+#register_box {
+    display: block;
+    margin: 0 25%;
+    padding: 25px;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1 {
+    margin: 15px 0px 30px 0px;
+    text-align: center;
+    color: rgba(255, 55, 25, 0.6);
 }
 .row{
     display:flex;
-    margin-top: 10px;
-    margin-left: 100px;
+    margin: 10px;
 }
+#txtEmail,
+#txtAddress,
 #txtName{
     width:465px;
 }
-#txtAddress{
-    width:450px;
-}
+#txtCountry,
 #txtZIPCode{
-    width:150px;
+    max-width:220px;
 }
-#txtEmail{
-    width:465px;
-}
+#txtPassword,
 #txtUserID{
-    width:110px
-}
-#txtPassword{
-    width:100px
+    width:120px
 }
 #Language{
     border: 5px solid black;
 }
 .col{
     margin-left: 5px;
+    min-width: 100px;
 }
 textarea{
     width:465px;
